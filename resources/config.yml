@@ -1,0 +1,30 @@
+---
+# prefix, this whill show the messages on start and
+prefix: "§l§6Staff+§r§7 => "
+# vanish, main messages show when a player use vanish
+in_vanish: "Sei in vanish"
+not_in_vanish: "Hai tolto la vanish"
+# general messages
+no_perm: 'Non hai il permesso di fare questo comando!'
+player_not_online: 'questo player non è online'
+# mutechat, messages when an admin mute all the chat
+chat_muted: "La chat è stato mutata!"
+chat_unmuted: "La chat è stata smutata!"
+cannot_chat: 'Non puoi chattare quando la chat è mutata'
+# freeze, messages when an admin freeze a player
+already_freezed: 'questo player è già freezato'
+admin_freezing: 'hai frezzato %PLAYER'
+admin_unfreezing: 'hai unfrezzato %PLAYER'
+player_freezing: 'sei stato freezato da %PLAYER'
+player_unfreezing: 'sei stato unfrezzato da %PLAYER'
+# tphere, message when a sender teleport another player in his position
+player_teleport: 'Hai teletrasportato %PLAYER da te'
+# clearinventory, message when a sender clear the inventory of a player
+player_clearinventory: "Hai pulito l'inventario di questo player"
+# heal & feed, message
+player_heal: 'Hai risanato la salute di questo player'
+player_feed: 'Hai risanato la fame di questo player'
+# staffmode messages
+staffmode.enter: 'Sei entrato in staffmode!'
+staffmode.leave: 'Sei uscito dalla staffmode!'
+...

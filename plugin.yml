@@ -1,0 +1,48 @@
+name: StaffMode
+main: Eris11dib\StaffMode\StaffMain
+version: 0.0.1
+api: [3.0.0]
+author: Eris11dib
+depend: FormAPI
+permissions:
+  staff:
+    default: op
+    children:
+      staff.vanish:
+        default: op
+      staff.mutechat:
+        default: op
+        children:
+          staff.mutechat.bypass:
+            default: op
+      staff.freeze:
+        default: op
+      staff.unfreeze:
+        default: op
+      staff.tphere:
+        default: op
+      staff.clearinventory:
+        default: op
+      staff.heal:
+        default: op
+      staff.feed:
+        default: op
+      staff.invsee:
+        default: op
+        children:
+          staff.invsee.edit:
+            default: op
+      staff.fly:
+        default: op
+      staff.god:
+        default: op
+      staff.tempban:
+        default: op
+      staff.unban:
+        default: op
+      staffmode.enter:
+        default: op
+      staff.staffmode:
+        default: op
+      randomtp.bypass:
+        default: op
